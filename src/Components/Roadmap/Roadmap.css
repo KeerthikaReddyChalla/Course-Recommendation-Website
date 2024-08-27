@@ -1,0 +1,99 @@
+.Roadmap {
+    background: rgb(38, 11, 79);
+    font-size: 16px;
+    color: black;
+  }
+  
+  .title {
+    font-size: 5em;
+    text-align: center;  font-family: Phantomsans, sans-serif;
+
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(228, 223, 223, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    border-radius: 10px; /* Add rounded corners if needed */
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+  
+  .timeline-icon {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px; /* Increased size */
+    height: 75px; /* Increased size */
+    border-radius: 50%;
+    color: white;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold;
+   /* Adjust background color as needed */
+    position: relative; /* Allows for adjustment with transform */
+    left: -10px; 
+    top:-10px;
+    color:black;
+    
+    /* Move the icon 10px to the left */
+  }
+  .button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #2a3585 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .button-29:focus {
+    box-shadow: #3241b3 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #2938a7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-29:active {
+    box-shadow: #24318e 0 3px 7px inset;
+    transform: translateY(2px);
+  }
