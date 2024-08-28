@@ -1,7 +1,12 @@
+
+
+
 .quiz-results-container {
     padding: 20px;
     font-family: Arial, sans-serif;
     position: relative;
+    min-height: 100vh;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.jbhZjQfmi66pyo9tpVlTTgHaEG&pid=Api&P=0&h=180);
   }
   
   .timer {
@@ -24,8 +29,13 @@
     border: 1px solid #dee2e6;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 300px;
+    margin-top: 200px;
+    margin:  auto ;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for depth */
   }
   
   .question {
@@ -100,6 +110,8 @@
   
   .overall-score, .skill-scores {
     margin-top: 20px;
+    width: 600px;
+    margin: auto;
   }
   
   .grade {

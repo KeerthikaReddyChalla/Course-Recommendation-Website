@@ -184,7 +184,7 @@ const QuizResults = () => {
           <div className="buttons-container">
             <button className="play-again-button" onClick={() => setIsSubmitted(false)}>Retake</button>
             <button className="back-home-button">Back to Home</button>
-            <button className="back-course-button" > <a href="http://localhost:3000/CourseDisplay" className="text-white text-decoration-none"> Course Recomendation </a></button>
+            <button className="back-course-button" > <a href="http://localhost:3000/CourseDisplay" className="text-white text-decoration-none">Recommended Courses </a></button>
           </div>
         </>
       )}
