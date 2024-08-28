@@ -1,0 +1,149 @@
+.quiz-results-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .timer-red {
+    color: #dc3545; /* Red */
+  }
+  
+  .question-card {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .option-container {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+  }
+  
+  .previous-button, .next-button, .submit-button, .play-again-button, .back-home-button , .back-course-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .previous-button {
+    background-color: #6c757d;
+  }
+  
+  .previous-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .next-button:hover, .submit-button:hover, .play-again-button:hover, .back-home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .play-again-button {
+    background-color: #ffc107;
+  }
+  
+  .play-again-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .back-home-button {
+    background-color: #dc3545;
+  }
+  .back-course-button {
+    background-color: #2798ef;
+  }
+  
+  .back-home-button:hover {
+    background-color: #c82333;
+  }
+  .back-course-button:hover {
+    background-color: #160aef;
+  }
+  
+  .overall-score, .skill-scores {
+    margin-top: 20px;
+  }
+  
+  .grade {
+    font-weight: bold;
+  }
+  
+  .grade.pass {
+    color: #28a745; /* Green */
+  }
+  
+  .grade.fail {
+    color: #dc3545; /* Red */
+  }
+  
+  .score, .time {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    margin-bottom: 15px;
+  }
+  
+  .skill-name {
+    font-size: 1.2em;
+  }
+  
+  .progress-bar-background {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .percentage {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
