@@ -7,9 +7,7 @@ html, body {
     background-color:black;
     
   }
-  .header {
-    background-color:#333333;
-  }
+  
   
   .container {
     max-width: 940px;
@@ -22,24 +20,9 @@ html, body {
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
-    height: 600px;
+    height: 800px;
   }
   
-  .nav {
-    margin: 0;
-    padding: 20px 0;
-  }
-  
-  .nav li {
-    display:inline;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    text-transform:uppercase;
-    margin-left:10px;
-    margin-right:10px;
-  }
   
   .main {
     position: relative;

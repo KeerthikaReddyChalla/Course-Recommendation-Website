@@ -2,11 +2,14 @@ import React from "react";
 import "./Home.css";
 import Header from "./Components/Header/Header";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 function Home(){
   let navigate=useNavigate();
   return (
-    <div className="home">
+    <div>
       <Header />
+    <div className="home">
+      
 
       <div className="jumbotron">
         <div className="container">
@@ -44,6 +47,8 @@ function Home(){
     </section>
   </span>
      
+    </div>
+    <Footer/>
     </div>
   );
 };
