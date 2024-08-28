@@ -1,0 +1,108 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .inner-container {
+    width: 100%;
+    max-width: 900px; /* Adjust the maximum width to your liking */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .profile-card {
+    margin-bottom: 20px;
+  }
+  
+  .cover {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust as needed */
+  }
+  
+  .profile-head {
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form fields */
+  }
+  
+  .form-fields div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between label and input */
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="url"],
+  textarea {
+    width: calc(100% - 20px); /* Adjust width with some padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Decrease padding */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .date-input {
+    width: 150px; /* Adjust width as needed */
+    padding: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Align description and experience sections to the left */
+  .left-aligned {
+    margin-top: 20px;
+  }
+  
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  
+  
+  .date-input {
+    width: 100%;
+    padding: 10px;
+  }
+  

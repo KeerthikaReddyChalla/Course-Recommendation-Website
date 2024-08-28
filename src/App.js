@@ -5,6 +5,7 @@ import Home from './Home'; // Ensure the path is correct
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import JobCategory from './Components/JobCategory/jobCategory';
 import Roadmap from './Components/Roadmap/Roadmap';
+import Profile from './Components/Profile/Profile';
 function App() {
     const browserRouter=createBrowserRouter([
       {
@@ -16,6 +17,9 @@ function App() {
       },{
         path:'/Roadmap',
         element:<Roadmap />
+      },{
+        path:'/Profile',
+        element:<Profile />
       }
     ])
   return (
