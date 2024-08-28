@@ -30,7 +30,7 @@ function Home(){
         
       <h2 className="mt-5">Take Test</h2>
           <p className="p-3">Discover comprehensive roadmaps for various careers, guiding you through the skills and knowledge needed to excel.</p>
-          <button class="button-29" role="button">More</button>
+          <button class="button-29" role="button"> <a href="http://localhost:3000/Quiz" className="text-white text-decoration-none" >More</a></button>
 
       </section>
       <section class="img-card">
