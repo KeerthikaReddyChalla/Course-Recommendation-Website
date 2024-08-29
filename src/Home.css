@@ -8,7 +8,6 @@ html, body {
     
   }
   
-  
   .container {
     max-width: 940px;
     margin: 0 auto;
@@ -182,14 +181,14 @@ html, body {
   }
   
   .img-card {
-    background-image: url(https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg);
+   background: white;
     background-size: cover;
-    background-color: white;
+    color: black;
     position: relative;
     left: 0px;
     width: 20vw;
     border-radius: 1em;
-    box-shadow: 4px 2px 2px rgb(193, 190, 190) ;
+    box-shadow: 4px 2px 2px rgb(3, 1, 1) ;
     height: 60vh;
     overflow: hidden;
     margin: auto;

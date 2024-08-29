@@ -6,7 +6,10 @@
     font-family: Arial, sans-serif;
     position: relative;
     min-height: 100vh;
-    background-image: url(https://tse3.mm.bing.net/th?id=OIP.jbhZjQfmi66pyo9tpVlTTgHaEG&pid=Api&P=0&h=180);
+    background-color:rgb(38, 11, 79);
+    display: flex;
+  align-items: center;
+  justify-content: center;
   }
   
   .timer {
@@ -25,26 +28,27 @@
   }
   
   .question-card {
-    background: #fff;
+    background-color: #fff;
+    margin: auto;
+    justify-content: center;
     border: 1px solid #dee2e6;
-    border-radius: 10px;
     padding: 20px;
     width: 700px;
-    height: 300px;
-    margin-top: 200px;
-    margin:  auto ;
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value to control transparency */
-    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for depth */
+    height: 500px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for depth */
   }
   
   .question {
     font-size: 1.5em;
     margin-bottom: 15px;
+    padding:20px;
   }
   
   .option-container {
     margin-bottom: 10px;
+    align-items:left;
+    display: flex;
+    padding-left:180px;
   }
   
   input[type="radio"] {
@@ -60,6 +64,7 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
+    padding-left:8px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
@@ -67,15 +72,11 @@
   }
   
   .previous-button {
-    background-color: #6c757d;
-  }
-  
-  .previous-button:hover {
-    background-color: #5a6268;
+    background-color: #f7c42c;
   }
   
   .next-button:hover, .submit-button:hover, .play-again-button:hover, .back-home-button:hover {
-    background-color: #0056b3;
+    background-color: #1c81e0;
   }
   
   .submit-button {
@@ -107,13 +108,25 @@
   .back-course-button:hover {
     background-color: #160aef;
   }
-  
+  .container1 p{
+    padding-bottom:15px;
+
+  }
+ .container1{
+  padding-top:10px;
+ }
   .overall-score, .skill-scores {
     margin-top: 20px;
     width: 600px;
     margin: auto;
+    background-color: white;
+    display: block;
+    padding:40px;
   }
-  
+
+  .piechart-container{
+    padding-left:100px;
+  }
   .grade {
     font-weight: bold;
   }
@@ -159,3 +172,4 @@
   .buttons-container {
     margin-top: 20px;
   }
+  

@@ -1,11 +1,16 @@
 import React from "react";
 import { Button, Card } from "flowbite-react";
-
-export function CourseRecommend({ courses = [] }) {
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+export function CourseRecom({ courses = [] }) {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+    <div>
+      <Header />
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
+      
       {courses.map((course, index) => (
         <Card
+        className="mx-auto "
           key={index}
           style={{
             maxWidth: "300px",
@@ -13,8 +18,10 @@ export function CourseRecommend({ courses = [] }) {
             padding: "20px",
             boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
             borderRadius: "10px",
+            textAlign: "center",
           }}
         >
+          <div className="card-head relative h-56" > <img style={{width:'100%',height:"30%", padding:"5px", borderRadius:"10px"}} src="https://img.freepik.com/free-vector/e-learning-education-template-vector-technology-ad-banner_53876-125996.jpg"></img></div>
           <h5 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#1f2937" }}>
             {course.course_title}
           </h5>
@@ -43,8 +50,11 @@ export function CourseRecommend({ courses = [] }) {
           </Button>
         </Card>
       ))}
+   
+    </div>
+    <Footer />
     </div>
   );
 }
 
-export default CourseRecommend;
+export default CourseRecom;

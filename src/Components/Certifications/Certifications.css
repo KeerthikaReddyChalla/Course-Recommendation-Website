@@ -1,0 +1,110 @@
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .free-label {
+    display: inline-block;
+    background-color: #e0e0e0;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon.purple {
+    background: linear-gradient(145deg, #b1a5f2, #6d5db1);
+  }
+  
+  .icon.gold {
+    background: linear-gradient(145deg, #f1c46d, #f2d43a);
+  }
+  
+  .icon.silver {
+    background: linear-gradient(145deg, #c7c7c7, #aaaaaa);
+  }
+  
+  .icon.bronze {
+    background: linear-gradient(145deg, #c5a893, #a7846c);
+  }
+  
+  .certification-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .gold-circle {
+    background-color: #f1c46d;
+  }
+  
+  .silver-circle {
+    background-color: #c7c7c7;
+  }
+  
+  .bronze-circle {
+    background-color: #c5a893;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .count {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #f5e9d2;
+    border-radius: 12px;
+    color: #aa893b;
+    font-weight: bold;
+  }
+  

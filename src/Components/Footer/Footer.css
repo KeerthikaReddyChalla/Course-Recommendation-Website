@@ -9,7 +9,7 @@
     width: 100%;
     margin: 1% 10%;
     padding: 0.6% 0%;
-    color: gray;
+    color: rgb(1, 0, 0);
     font-size: 0.8em;
     margin-left: 50px;
   }
@@ -25,7 +25,7 @@
   }
   
   .footer .row a:hover {
-    color: orange; /* Change color to orange on hover */
+    color: rgb(130, 54, 236); /* Change color to orange on hover */
   }
   
   .footer .row ul {
@@ -45,7 +45,7 @@
   }
   
   .footer .row a:hover .icon {
-    color: orange; /* Change color to orange on hover */
+    color: rgb(130, 54, 236); /* Change color to orange on hover */
   }
   
   @media (max-width: 720px) {
@@ -63,5 +63,5 @@
     }
   }
   .id15{
-    color:gray
+    color:gray;
   }

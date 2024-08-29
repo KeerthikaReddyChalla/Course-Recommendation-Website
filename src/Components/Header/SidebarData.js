@@ -31,5 +31,11 @@ export const SidebarData = [
     icon: <FaInfoCircle />,
     path:'/JoinPage',
     cName: 'nav-text'
+  },
+  {
+    title: 'Certifications',
+    icon: <FaEnvelope />,
+    path:'/Certifications', // Updated icon for "Contact us"
+    cName: 'nav-text'
   }
 ];

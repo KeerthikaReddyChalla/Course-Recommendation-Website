@@ -108,6 +108,7 @@ const Profile = () => {
 
   return (
     <div>
+      <Header />
     <div className="outer-container">
       <div className="inner-container">
         <div className="bg-white shadow rounded overflow-hidden profile-card">
@@ -319,7 +320,7 @@ const Profile = () => {
         </form>
       </div>
     </div>
-    
+    <Footer />
     </div>
   );
 };

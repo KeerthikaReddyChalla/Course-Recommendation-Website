@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./QuizResults.css";
 import { useNavigate } from "react-router-dom";
+import PieActiveArc from "./PieActiveArc"; 
+
 
 const sampleQuizData = [
     { id: 1, question: "What does HTML stand for?", skill: "HTML & CSS", options: ["Hyper Text Markup Language", "Hyperlinks Text Mark Language", "Home Tool Markup Language"], correctAnswer: "Hyper Text Markup Language" },
@@ -111,6 +113,7 @@ const QuizResults = () => {
       <div className="timer">
         Time Left: <span className={timer <= 60 ? "timer-red" : ""}>{formatTime(timer)}</span>
       </div>
+      
       {!isSubmitted ? (
         <form onSubmit={handleSubmit}>
           {currentQuestion && (
@@ -129,9 +132,7 @@ const QuizResults = () => {
                   <label htmlFor={`${currentQuestion.id}-${option}`}>{option}</label>
                 </div>
               ))}
-            </div>
-          )}
-          <div className="navigation-buttons">
+              <div className="navigation-buttons">
             {currentQuestionIndex > 0 && (
               <button type="button" className="previous-button" onClick={handlePrevious}>Previous</button>
             )}
@@ -141,21 +142,31 @@ const QuizResults = () => {
               <button type="submit" className="submit-button">Submit</button>
             )}
           </div>
+            </div>
+          )}
+          
         </form>
       ) : (
         <>
           {/* Overall Score */}
+          <div className="results-container">
           <div className="overall-score">
-            <h2>Quiz Results</h2>
+            <h2>Score Analysis Report</h2>
+            <div className="container container1">
+            <div className="piechart-container">
+            <PieActiveArc />
+            </div>
             <p>
-              Grade:{" "}
+              --Overall Grade:{" "}
               <span className={overallScore >= 60 ? "grade pass" : "grade fail"}>
                 {overallScore >= 60 ? "Pass" : "F"}
               </span>
+              
             </p>
-            <p>Your Score: <span className="score">{overallScore.toFixed(2)}%</span></p>
-            <p>Passing Score: <span className="score">60%</span></p>
-            <p>Time Taken: <span className="time">0h 0m 21s</span></p>
+            <p>--Your Score: <span className="score">{overallScore.toFixed(2)}%</span></p>
+            <p>--Passing Score: <span className="score">60%</span></p>
+            <p>--Time Taken: <span className="time">0h 0m 21s</span></p>
+            </div>
           </div>
 
           {/* Skill-wise Score */}
@@ -186,9 +197,11 @@ const QuizResults = () => {
             <button className="back-home-button">Back to Home</button>
             <button className="back-course-button" > <a href="http://localhost:3000/CourseDisplay" className="text-white text-decoration-none">Recommended Courses </a></button>
           </div>
+          </div>
         </>
       )}
     </div>
+    
   );
 };
 
