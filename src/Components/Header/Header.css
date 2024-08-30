@@ -12,7 +12,12 @@
   background-color: black;
   color: white;
 }
-
+.login-button{
+  background: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  padding:10px;
+  margin-right:10px;
+  color:black;
+}
 .logo {
   font-size: 2.75em;
   font-weight: 300;

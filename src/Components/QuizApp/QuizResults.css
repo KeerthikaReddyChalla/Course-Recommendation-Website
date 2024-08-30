@@ -1,12 +1,12 @@
 
-
-
 .quiz-results-container {
     padding: 20px;
     font-family: Arial, sans-serif;
     position: relative;
     min-height: 100vh;
-    background-color:rgb(38, 11, 79);
+    background-image: url(https://blog.rapid7.com/content/images/2022/08/vmware-lpe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
   align-items: center;
   justify-content: center;
@@ -172,4 +172,6 @@
   .buttons-container {
     margin-top: 20px;
   }
-  
+  .Passed{
+    color:green;
+  }

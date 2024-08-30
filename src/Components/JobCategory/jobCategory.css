@@ -17,8 +17,8 @@ body {
   flex-basis: 30%;
   box-sizing: border-box;
   margin-bottom: 20px;
-  padding: 60px;
-  border-radius: 0;
+  padding: 30px;
+  border-radius: 10px;
   cursor: pointer;
   color: black;
   background: white;
@@ -27,12 +27,12 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
+.jobcard:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }
 
-.card:active {
+.jobcard:active {
   box-shadow: none;
   transform-origin: center;
   transform: scale(1);

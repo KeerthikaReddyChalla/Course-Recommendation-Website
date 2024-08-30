@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.main1 {
+  font-family: 'Dancing Script', cursive; /* Apply font globally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  background-color: #f0f0f0; /* Optional: background color for the page */
+}
+
+.AppreciationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between elements */
+  padding: 20px;
+  max-width: 100%; /* Responsive max-width */
+  width: 100vh;
+  height: 100vh;
+   /* Fixed width for card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #fff; /* Background color for the card */
+}
+
+.AppreciationCard img {
+  width: 100%; /* Responsive image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.appreciate-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #2a3585 100%);
+    border: 0;
+ 
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+}
+.appreciate-button:hover{
+    box-shadow: #3241b3 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.image-container1 img{
+    width:700px;
+    height:500px;
+}

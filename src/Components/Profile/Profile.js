@@ -121,7 +121,7 @@ const Profile = () => {
             <div className="profile-head d-flex align-items-center">
               <div className="profile">
                 <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.rmim2jYzNpSCslo60INohQHaF9&pid=Api&P=0&h=180"
+                  src="https://m.media-amazon.com/images/I/41jLBhDISxL.jpg"
                   alt="Profile"
                   className="profile-img"
                 />
