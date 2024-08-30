@@ -255,3 +255,11 @@ html, body {
   box-shadow: #24318e 0 3px 7px inset;
   transform: translateY(2px);
 }
+.roboimg{
+  width:100px;
+  position: fixed; /* This keeps the image fixed at the desired location even when scrolling */
+  bottom: 0;       /* Positions the image at the bottom of the viewport */
+  right: 0;        /* Positions the image at the rightmost side of the viewport */
+  margin: 10px;
+  border-radius: 60%;
+}

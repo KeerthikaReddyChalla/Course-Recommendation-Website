@@ -3,6 +3,7 @@ import "./Home.css";
 import Header from "./Components/Header/Header";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
+import MyImage from './bluerobo.png';
 function Home(){
   let navigate=useNavigate();
   return (
@@ -18,8 +19,10 @@ function Home(){
             <button class="button-64" role="button"><span onClick={()=>navigate('/JobCategory')}>Get Started</span></button>
           </div>
         </div>
+        <a href="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=a128eacb-8cfb-41c6-ade3-0fe90a242394" target="_blank">
+  <img src={MyImage} alt="Robo" class="roboimg"></img>
+</a>
       </div>
-
       <span class="background ">
     <section class="gallery">
       <section class="img-card ">
