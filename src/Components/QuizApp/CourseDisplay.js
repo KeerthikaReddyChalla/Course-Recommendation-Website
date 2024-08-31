@@ -21,7 +21,7 @@ const coursesData = [
     course_rating: 4.6,
     course_reviews_num: "16.2k",
     course_difficulty: "Intermediate",
-    course_url: "https://www.coursera.org/learn/python-for-data-visualization",
+    course_url: "https://www.udemy.com/course/python-data-visualization-using-python/?couponCode=NVDIN35",
     course_students_enrolled: "320,613",
   },
   {

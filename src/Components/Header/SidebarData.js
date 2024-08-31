@@ -16,15 +16,17 @@ export const SidebarData = [
   },
   {
     title: 'Dashboard',
-    path:'http://localhost:5174/',
+    path:'http://localhost:5173/',
     icon: <FaUser />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    
   },
   {
     title: 'ResumeEditor',
     icon: <FaEnvelope />,
-    path:'http://localhost:5173/dashboard', // Updated icon for "Contact us"
-    cName: 'nav-text'
+    path:'http://localhost:5174/dashboard', // Updated icon for "Contact us"
+    cName: 'nav-text',
+    
   },
   {
     title: 'Community Tab',

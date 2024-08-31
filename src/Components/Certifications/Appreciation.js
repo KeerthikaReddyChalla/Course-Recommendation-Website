@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './EnvisionCertificate.jpg';
+import image1 from './EnvisionCertificate.jpg';
 import "./Appreciation.css"
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -11,10 +11,10 @@ function Appreciation() {
     <div className='main1'>
     <div className="AppreciationCard">
       <h4>Congratulations</h4>
-      <p>On successfully completing the test with 97% </p>
+      <p>On successfully completing the test with 97%</p>
       
       <div className="image-container1">
-        <img src={image} alt="Certificate" />
+        <img src={image1} alt="Certificate" />
       </div>
       <button className='appreciate-button'>Download</button>
     </div>
